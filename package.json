@@ -1,17 +1,12 @@
 {
-  "name": "express-vercel",
+  "name": "express-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node api/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.1",
-    "express-vercel": "file:"
+    "express-app": "file:"
   }
 }
